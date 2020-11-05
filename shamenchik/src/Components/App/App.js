@@ -1,11 +1,14 @@
 import './App.css';
+import {Nav} from '../Nav/index';
+import {Alerts} from '../Alerts/index';
+import {Container} from '../Container/index';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>hello</h1>
-      </header>
+      <Nav />
+      <Alerts />
+      <Container />
     </div>
   );
 }
