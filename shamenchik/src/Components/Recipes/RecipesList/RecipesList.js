@@ -1,4 +1,5 @@
 import React from 'react'
+import ListPart from '../ListPart/ListPart'
 import './RecipesList.scss'
 
 export function RecipesList() {
@@ -23,6 +24,9 @@ export function RecipesList() {
                     </form>
                 </div>
             </header>
+            
+            <ListPart />
+            
         </div>
     )
 }
